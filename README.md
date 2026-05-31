@@ -1,79 +1,12 @@
-# Caleb's Virtual Compendium
+# Recent American Corruption
 
-<a href="https://YOUR-LINK-HERE.com">
-  <img width="510" height="300" alt="Screenshot 2026-05-03 231029" src="https://github.com/user-attachments/assets/c784d64d-eecc-4ad1-a948-a7f3ab37d0da" />
-</a>
-
----
-
-<strong>Welcome!</strong> This project contains multiple interactive links, visualizations, and games- all created by me.  
-Visit the most recent deployment via Github Pages at [https://calebketterer.github.io/Calebs-Compendium/](https://calebketterer.github.io/Calebs-Compendium/).  
+<strong>Welcome!</strong> This project contains links to corruption in America. Public site is not online yet.  
+Visit the most recent deployment via Github Pages at [https://calebketterer.github.io/Recent-Corruption/](https://calebketterer.github.io/Recent-Corruption/).  
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
 
 ## Features
 
-<details>
-  <summary><strong>Diep</strong></summary>
-
-## Diep
-
-<img width="519" height="398" alt="image" src="https://github.com/user-attachments/assets/ddf6dbef-31c8-49ac-9416-549788aa0bc2" />
-
-Based off the online game, Diep.io, I'm playing around with the idea of a single player version. The current version contains many enemies, an upgrade system, and achievement system. Not to mention a fun title screen with randomized effects and animations that I have guiltlessly admired for longer than I care to admit. 
-
-</details>
-
-<details>
-  <summary><strong>Snake</strong></summary>
-  
-## Snake
-
-<img width="432" height="723" alt="2" src="https://github.com/user-attachments/assets/8af618a1-13cd-4370-bc8b-edbf00fd5e90" />
-
-A classic game of Snake with the following features:
-
-- Difficulty selection (Easy/Medium/Hard) that effects snake speed.
-- Buttons to change direction and WASD support.
-- A score that increases with each target consumed.
-- An interactable title in the header.
-
-Good luck with the Extreme difficulty!
-</details>
-
-<details>
-  <summary><strong>Sudoku</strong></summary>
-  
-## Classic Sudoku
-  
-<img width="450" height="713" alt="Capture" src="https://github.com/user-attachments/assets/c96a5195-950d-4688-a4c0-f0d0bc14bb0f" />
-
-A classic game of Sudoku, featuring the following:
-  
-- Interactive Sudoku board with keyboard and mouse support.
-- "Check Answers" button with error highlighting.
-- "Reveal Solution" toggle to view or hide the solution.
-- Random puzzle generation with unique solutions.
-- Difficulty selection (Easy/Medium/Hard).
-
-Challenge yourself or practice your puzzle-solving skills!
-</details>
-
-<details>
-  <summary><strong>Tetris</strong></summary>
-  
-## Tetris
-  
-<img width="496" height="730" alt="3" src="https://github.com/user-attachments/assets/9b8503f6-87f1-4f86-be04-f1c5feda1d0a" />
-
-A classic game of Tetris, featuring the following:
-  
-- Interactive Tetris board with keyboard input.
-- Scoreboard that adds 100 points with each row cleared.
-- Next share preview.
-
-</details>
-
-
+This is a placeholder for now and I shall update it as I put content on this portion of the site. There's a lot to tackle here.
 
 ## Development Server in Browser
 
@@ -109,7 +42,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Deploying as a Github Page
 
-If not already done, type `npm install -g angular-cli-ghpages` in terminal. Then, run `ng build --configuration production --base-href /Calebs-Compendium/` and  `npx angular-cli-ghpages --dir=dist/example-website/browser/`. After that, the site should be updated at `https://calebketterer.github.io/Calebs-Compendium/`
+If not already done, type `npm install -g angular-cli-ghpages` in terminal. Then, run `ng build --configuration production --base-href /Recent-Corruption/` and  `npx angular-cli-ghpages --dir=dist/example-website/browser/`. After that, the site should be updated at `https://calebketterer.github.io/Recent-Corruption/`
 
 <details>
   <summary><strong>Misc Notes</strong></summary>
@@ -121,4 +54,4 @@ and `git config --global user.name calebketterer`
 
 ## Commands for Returning App Trees (VSCODE Codespace/Linux)
 
-When you want to see the full app tree, type `npm run apptree` in terminal and enter `npm run diepapptree` whenever you wanna see the diep file tree. The exact scripts being run are found in package.json.
+When you want to see the full app tree, type `npm run apptree` in terminal. The exact scripts being run are found in package.json.
