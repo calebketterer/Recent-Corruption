@@ -2,7 +2,6 @@
    1. VARIABLES & RESET
    ========================================================================== */
 :host {
-    font-family: "Inter", -apple-system, sans-serif;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     display: block;
@@ -17,9 +16,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     min-height: 100vh; 
-    padding: 40px 20px; 
+    padding: 60px 20px 40px; 
     width: 100%;
     box-sizing: border-box;
     overflow-x: hidden; 
@@ -32,31 +31,36 @@
     align-items: center;
     width: 100%;
     user-select: none;
-}
-
-.revolution-banner {
-    background: linear-gradient(90deg, #511281 0%, #a239ca 50%, #511281 100%);
-    padding: 12px 36px;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(162, 57, 202, 0.25);
-    transform: rotate(-1deg);
+    gap: 0.75rem; /* Creates clean spacing between the title and subtitle */
     animation: fade-in 10s cubic-bezier(0.23,1,0.32,1) both;
 }
 
+/* ==========================================================================
+   3. COMPONENT STYLES
+   ========================================================================== */
 .revolution-text {
-    font-family: "Inter Tight", sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 3.5rem;
     text-transform: uppercase;
-    letter-spacing: 0.15rem;
-    color: #ffffff;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    letter-spacing: 0.1rem;
+    color: #a239ca; 
     margin: 0;
     text-align: center;
 }
 
+.revolution-subtext {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #888888; /* Muted gray tone */
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0.05rem;
+}
+
 /* ==========================================================================
-   3. ANIMATIONS
+   4. ANIMATIONS
    ========================================================================== */
 @keyframes fade-in {
     from { opacity: 0; transform: translateY(-15px); }
@@ -64,11 +68,19 @@
 }
 
 /* ==========================================================================
-   4. RESPONSIVE OVERRIDES (MOBILE)
+   5. RESPONSIVE OVERRIDES (MOBILE)
    ========================================================================== */
 @media (max-width: 768px) {
+    .main {
+        padding-top: 40px;
+    }
+    
     .revolution-text {
-        font-size: 2.2rem;
-        letter-spacing: -0.05rem;
+        font-size: 2.5rem;
+        letter-spacing: 0.05rem;
+    }
+
+    .revolution-subtext {
+        font-size: 1.05rem;
     }
 }
